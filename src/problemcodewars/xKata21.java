@@ -1,7 +1,7 @@
-
 package problemcodewars;
 
-public class Kata3 {                         //Total amount of points  
+public class xKata21 {                         //Total amount of points  
+
     public static int sum(int[] numbers) {
         if (numbers == null || numbers.length <= 1) {
             return 0;
@@ -21,7 +21,6 @@ public class Kata3 {                         //Total amount of points
             sum += num;
         }
 
-    
         sum -= max + min;
 
         return sum;
